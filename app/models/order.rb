@@ -5,11 +5,11 @@ class Order < ApplicationRecord
     validate :total_sum
     validate :total_paid
   
-    belongs_to :customer
+    belongs_to :client
     belongs_to :shipping_address
     has_many :payments, dependent: :destroy
     has_many :order_products
-    has_many :products, through: :order_items
+    has_many :products, through: :order_product
   
     def total_sum
       return if total.blank? || subtotal.blank? || shipping_cost.blank?
