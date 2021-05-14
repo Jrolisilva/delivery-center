@@ -1,4 +1,3 @@
-
 class PaymentParser < BaseParser
     keep_keys :value
   

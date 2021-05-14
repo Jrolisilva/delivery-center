@@ -1,4 +1,4 @@
-describe PurchaseValidate do
+RSpec.describe PurchaseValidate do
     subject { described_class.new(payload) }
   
     let(:default_payload) do

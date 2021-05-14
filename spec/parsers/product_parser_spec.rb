@@ -1,4 +1,4 @@
-describe ProductParser do
+RSpec.describe ProductParser do
     subject { described_class.parse(params) }
   
     describe 'parse' do

@@ -27,4 +27,4 @@ class BaseParser
   
       attr_reader :params, :keys_to_keep, :keys_to_translate
     end
-  end
+end

@@ -1,4 +1,3 @@
-
 RSpec.describe RestaurantsController, type: :request do
   describe 'POST /delivery' do
     before { post deliveries_path, params: JSON.parse(payload) }

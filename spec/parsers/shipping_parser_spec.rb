@@ -1,4 +1,4 @@
-describe ShippingAddressParser do
+RSpec.describe ShippingAddressParser do
     subject { described_class.parse(params) }
   
     describe 'parse' do

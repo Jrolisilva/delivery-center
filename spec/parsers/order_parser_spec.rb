@@ -1,4 +1,4 @@
-describe OrderParser do
+RSpec.describe OrderParser do
     subject { described_class.parse(params) }
   
     describe 'parse' do

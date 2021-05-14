@@ -1,4 +1,4 @@
-describe BaseParser do
+RSpec.describe BaseParser do
     subject { described_class.parse(params) }
   
     describe '.translate_keys' do

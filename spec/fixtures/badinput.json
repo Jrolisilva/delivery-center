@@ -5,8 +5,7 @@
     "date_closed": "2019-06-24T16:45:35.000-04:00",
     "last_updated": "2019-06-25T13:26:49.000-04:00",
     "total_amount": 49.9,
-    "total_shipping": 5.14,
-    "total_amount_with_shipping": 55.04,
+    "total_amount_with_shipping": 0,
     "paid_amount": 55.04,
     "expiration_date": "2019-07-22T16:45:35.000-04:00",
     "total_shipping": 5.14,
@@ -41,13 +40,13 @@
     "shipping": {
       "id": 43444211797,
       "shipment_type": "shipping",
-      "date_created": "2019-06-24T16:45:33.000-04:00",
+      "date_created": "2019-06-27T19:59:08.251-04:00",
       "receiver_address": {
         "id": 1051695306,
-        "address_line": "Rua Fake de Testes 3454",
-        "street_name": "Rua Fake de Testes",
+        "address_line": "Rua de Testes Fake 3454",
+        "street_name": "Rua de Testes Fake",
         "street_number": "3454",
-        "comment": "teste",
+        "comment": "galpao",
         "zip_code": "85045020",
         "city": {
           "name": "Cidade de Testes"
