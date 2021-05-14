@@ -1,5 +1,9 @@
-require 'rails_helper'
-
 RSpec.describe OrderProduct, type: :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+    describe 'validates' do
+      subject{ build(:order_product)}
+
+      it{should belongs_to(:order)}
+      it{should belongs_to(:product)}
+
+    end
 end

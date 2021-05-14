@@ -14,12 +14,10 @@ class Order < ApplicationRecord
     def total_sum
       return if total.blank? || subtotal.blank? || shipping_cost.blank?
       return if total == subtotal + shipping_cost
-  
     end
   
     def total_paid
       payment_sum = payments.map(&:value).reduce(&:+)
       return if payment_sum == total
-  
     end
 end
