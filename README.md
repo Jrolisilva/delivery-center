@@ -1,24 +1,18 @@
-# README
+# Teste de Dev Backend Ruby Delivery Center
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+# Setup da aplicação
 
-* Ruby version
+    git clone git@github.com:Jrolisilva/delivery-center.git
+    cd delivery-center
+    bundle install
+    
+# Ferramentas Utilizadas
 
-* System dependencies
+    Ruby: 3.0.1
+    Rails: 6.1
+    PostgreSQL: 12.1
 
-* Configuration
 
-* Database creation
 
-* Database initialization
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
